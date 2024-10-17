@@ -1,4 +1,4 @@
-const {convertToCelsius, convertToFahrenheit} = require('./tempConversion')
+const  { convertToCelsius, convertToFahrenheit } = require("./tempConversion")
 
 describe('convertToCelsius', () => {
   test('works', () => {

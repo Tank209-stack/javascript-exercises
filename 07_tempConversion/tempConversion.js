@@ -5,8 +5,7 @@ const convertToCelsius = function (fahrenheit) {
 const convertToFahrenheit = function (celsius) {
   return Math.round(((celsius * 9) / 5 + 32) * 10) / 10;
 };
-// Do not edit below this line
-module.exports = {
+module.exports =  {
   convertToCelsius,
-  convertToFahrenheit
-};
+  convertToFahrenheit,
+}
